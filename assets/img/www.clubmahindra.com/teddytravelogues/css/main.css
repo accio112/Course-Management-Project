@@ -1,0 +1,429 @@
+@font-face {
+font-family: 'Museo500-Regular';
+font-style: Bold;
+font-weight: 600;
+src:url('../fonts/Museo500-Regular.otf');
+}
+body{
+	color: white;
+	font-family: 'Museo500-Regular';
+}
+.container{
+	width: 1054px;
+	max-width: 1054px;
+}
+.container #logo{
+	float: right;
+	display: block;
+}
+.header{
+	height: 122px;
+	background-color: #f3f3f4;
+	position: relative;
+}
+.yellow-strips-group{
+	position:  absolute;
+	bottom: 16px;
+	left: 0px;
+}
+.yellow-stripe{
+	width: 14px;
+	height: 5px;
+	background-color: #f58220;
+	margin-top: 5px;
+}
+.content-box{
+	width:91.25%;
+	background-color:rgba(246, 143, 55, 0.9);
+	margin: -8px auto;
+	border-radius: 7px;
+	padding-top: 30px;
+	padding-bottom: 8px;
+}
+
+.participate-message{
+	font-family: 'Museo500-Regular';
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.button-row1{
+	width: 160px;;
+	margin: 30px auto;
+	height: 30px;
+
+}
+.button-row2{
+	width: 179px;
+	margin: 30px auto;
+	height: 30px;
+}
+#login-page .body{
+	background: url('../img/banner-2.jpg') no-repeat;
+	min-height: 490px;
+	width: 100%;
+	padding-top: 56px;
+}
+#login-page .login-box{
+	width:91.25%;
+	height: 359px;
+	background-color:rgba(246, 143, 55, 0.9);
+	margin: 0 auto;
+	border-radius: 6px;
+}
+
+
+/*------------Desktop----------------------*/
+body{
+	font-family: 'Museo500-Regular';
+}
+.orange-overlay{
+	width: 778px;
+	height: 638px;
+	border-radius: 6px;
+	background-color: rgba(244, 129, 32, 0.90);
+	margin: 0 auto;
+	/*position: absolute;
+	top: 410px;
+	left: 19%;*/
+	z-index: 2;
+}
+.banner-image{
+	background:url('../img/banner-3.jpg');
+	width: 100%;
+	margin: 0 auto;
+	height: 700px;
+	padding-top: 33px;
+}
+#loginpage .orange-overlay h3, #signup-page .orange-overlay h3{
+	font-size: 64px;
+	color: white;
+	display: block;
+	text-align: center;
+	padding-top:8px;
+	font-family: Museo500-Regular;
+}
+.login-form .inputfield , #signup-form .inputfield, #childenroll-page .inputfield{
+	width: 473px;
+	margin: 0 auto;
+	height: 66px;
+	background-color: rgba(0, 0, 0, 0.15);
+	border-radius: 14px;
+	border: none;
+	margin-top: 20px;
+	display: block;
+	font-family: 'Museo500-Regular';
+   text-align: center;
+	font-size: 40px;
+	color: white;
+}
+#childenroll-page .inputfield{
+	width: 390px;
+}
+::-webkit-input-placeholder  {
+   color: #daa579;
+   font-family: 'Museo500-Regular';
+   text-align: center;
+	font-size: 40px;
+	line-height: 40px; 
+	padding: 0px;
+}
+::-moz-placeholder { color: #daa579;
+   font-family: 'Museo500-Regular';
+   text-align: center;
+	font-size: 40px;
+	line-height: 66px; } /* firefox 19+ */
+:-ms-input-placeholder { color: #daa579;
+   font-family: 'Museo500-Regular';
+   text-align: center;
+	font-size: 40px;
+	line-height: 66px; } /* ie */
+input:-moz-placeholder { color: #daa579;
+   font-family: 'Museo500-Regular';
+   text-align: center;
+	font-size: 40px;
+	line-height: 66px; }
+	
+#child1Gender{
+	width:387px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.15);
+	border-radius: 14px;
+	margin: 20px auto;
+	display: block;
+	border: none;
+	text-align: center;
+   color: #daa579;
+   font-family: 'Museo500-Regular';
+   text-align: center;
+  font-size: 40px;
+  line-height: 40px; 
+  padding-left: 73px;
+}
+#child1Gender option{
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.15);
+	display: block;
+	margin: 0 auto;
+	width:1px;
+}
+#ChooseChildMenu>li.active-button{
+	background-color: rgb(140, 50, 50);
+}
+.button-stylish{
+	border: 4px solid white;
+	border-radius: 10px;
+	background-color: #0e76bc;
+	padding: 10px;
+	color: white;
+	font-family: 'Museo500-Regular';
+	font-size: 41px;
+}
+.button-row1{
+width: 130px;
+margin: 0 auto;
+height: 73px;
+padding: 0px;
+margin-top: 25px;
+}
+.button-row-signup-page{
+	width: 130px;
+margin: 0 auto;
+height: 73px;
+padding: 0px;
+margin-top: 25px;	
+}
+.ortext{
+	font-size: 40px;
+	width: 115px;
+	margin: 0 auto;
+	background-color:none;
+	text-align: center;
+	line-height: 40px;
+	}
+.facebookbutton{
+	border: 4px solid white;
+	border-radius: 10px;
+	background-color: #0e76bc;
+	padding: 10px;
+	color: white;
+	font-family: 'Museo500-Regular';
+	font-size: 41px;
+	text-align: center;
+	background-color: #535b8f;
+	border: none;
+	font-weight: normal;
+}
+.facebookbutton_cover{
+	width:560px;
+	margin: 0 auto;
+	font-size: 39px;
+	padding:0 61px;
+}
+.or-line-row{
+	height: 37px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.line{
+	height: 2px;
+	width: 32%;
+	background-color: #393433;
+	margin: 20px auto;
+	position: absolute;
+	line-height: 40px;
+	top:0px;
+}
+
+.left-line{
+left: 10%;
+}
+.right-line{
+right: 10%;
+}
+.newuser-link{
+	float: right;
+	font-size: 23px;
+	color: white;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.newuser-link span{
+	color:#231f20;
+}
+#loginpage .orange-overlay {
+	position: absolute;
+	height: auto;
+	top: 10px;
+	left: 198px;
+	width:628px;
+}
+#loginpage label{
+	margin-left: 165px;
+}
+.banner{
+	width: 100%;
+	margin: 0 auto;
+	height: 700px;
+}
+#signup-page .banner{
+	background:url('../img/background-image4.jpg') no-repeat; 
+	padding-top: 33px;
+}
+#signup-form #clubmemberID{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+#clubmemberID span{
+	position: absolute;
+}
+#signup-form{
+	width: 472px;
+	margin: 0 auto;
+}
+.div-clubmember{
+	padding-top: 10px;
+}
+.entry-title{
+	text-align: center;
+	font-size: 29px;
+	padding-top: 25px;
+}
+#childenroll-page .banner{
+	background:url('../img/background-image5.jpg') no-repeat;
+	padding-top: 33px;
+}
+#childenroll-page .orange-overlay{
+	width: 536px;
+	margin: 0 31px;
+}
+.childnumber{
+	font-size: 34px;
+	text-align: center;
+}
+.button-row-childenroll .button-stylish{
+	font-size: 20px;
+}
+#childenroll-page .inputfield{
+	height: 50px;
+}
+.add-more-child-link{
+	font-size: 19px;
+	padding-top: 20px;
+}
+.add-more-child-link a{
+	color: white;
+	text-decoration: none;
+	}
+#childenroll-page .orange-overlay{
+	position: relative;
+}
+#childenroll-page .add-more-child-link{
+	position: absolute;
+	bottom: 0px;
+	left: 10px
+}
+
+#childenroll-page .button-row-childenroll .button-stylish{
+	position: absolute;
+	bottom: 10px;
+	right: 10px
+}
+
+#signup-page .content {
+	padding-top: 10px;
+width: 100%;
+height: 700px;
+background: url('../images/background-image4.jpg') no-repeat;
+}
+#childenroll-page .content {
+width: 100%;
+height: 718px;
+background: url('../images/background-image5.jpg') no-repeat;
+padding-top: 10px;
+}
+#signup-page .orange-overlay{
+	top: 350px;
+}
+
+#childenroll-page, #signup-page, #loginpage {
+	 font-family: 'Museo500-Regular';
+}
+#ChooseChildMenu{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	font-size: 22px;
+}
+#ChooseChildMenu li{
+	background-color: rgba(244, 129, 32, 0.90);
+	padding: 10px 50px;
+	margin-top:10px;
+	list-style: none;
+	border-radius: 10px;
+	cursor: pointer;
+	}
+#dynamic-body{
+  position: static;
+}
+#childenroll-page label{
+	margin-bottom: 0px;
+}
+.content{
+	position: relative;
+}
+
+/*--------------------additional css writtten ----*/
+#signup-page .orange-overlay{
+	height: auto;
+	min-height: 638px;
+}
+#errorMessage{
+	background-color: red;
+	text-align: left;
+	margin: 0 auto;
+	display: block;
+	width: 63.553530751%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	max-width: 300px;
+	min-width: 206px;
+}
+#childenroll-page .choosechild{	
+background-color: rgb(140, 50, 50);
+padding: 10px 50px;
+margin-top: 10px;
+list-style: none;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 1em;
+text-align: center;
+margin: 10px auto;
+color: white;
+}
+#childenroll-page fieldset {
+border: 1px solid white;
+padding: 10px;
+border-radius: 20px;
+margin: 10px auto;
+max-width: 80%;
+text-align: center;
+}
+#childenroll-page .add-more-child-link {
+ position: static; 
+}
+#childenroll-page .chooseAmongExsistingChildren {
+text-align: center;
+}
+.header {
+background-color: white; 
+}
+.menu{
+	font-family: Arial, Helvetica, sans-serif;
+}

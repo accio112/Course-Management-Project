@@ -1,0 +1,36 @@
+.bx-wrapper{position:relative;padding:0;margin-top:13px;*zoom:1}
+.bx-wrapper img{width:100%;display:block}
+.bxslider{left:1px;margin-left:-1px;position:relative}
+.bx-wrapper .bx-pager,.bx-wrapper .bx-controls-auto{position:absolute;bottom:-30px;width:100%}
+.banner .bx-wrapper .bx-pager .bx-pager-item{position:relative}
+.banner .bx-wrapper .bx-pager,.banner .bx-wrapper .bx-controls-auto{bottom:inherit!important;width:20px;top:40%;right:10px;z-index:9999}
+.bx-wrapper .bx-loading{min-height:50px;background:url(images/bx_loader.gif) center center no-repeat #fff;height:100%;width:100%;position:absolute;top:0;left:0;z-index:2000}
+.bx-wrapper .bx-pager{text-align:center;font-size:.85em;font-family:Arial;font-weight:700;color:#666;padding-top:20px}
+.bx-wrapper .bx-pager .bx-pager-item,.bx-wrapper .bx-controls-auto .bx-controls-auto-item{display:inline-block;*zoom:1;*display:inline}
+.bx-wrapper .bx-pager.bx-default-pager a{background:#f3f4f3;text-indent:-9999px;display:block;width:10px;height:10px;margin:0 5px 8px!important;outline:0;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,.bx-wrapper .bx-pager.bx-default-pager a.active{background:#bfa161}
+.bx-wrapper .bx-controls-direction a{position:absolute;top:-60px;outline:0;width:40px;height:40px;text-indent:-9999px;z-index:999}
+#board-directors-details .bx-wrapper .bx-controls-direction a{width:30px;height:29px;top:-33px;z-index:99999}
+.bx-wrapper .bx-prev{right:34px;background:url(images/ui-icons_ffffff_256x240.png) no-repeat -10px -452px rgba(182,153,96,0.9)}
+.bx-wrapper .bx-next{right:-10px;background:url(images/ui-icons_ffffff_256x240.png) no-repeat -247px -452px rgba(182,153,96,0.9)}
+#board-directors-details .bx-wrapper .bx-prev{right:42px;background:url(images/ui-icons_ffffff_256x240.png) no-repeat -6px -2px rgba(99,99,99,0.9)}
+#board-directors-details .bx-wrapper .bx-next{right:11px;background:url(images/ui-icons_ffffff_256x240.png) no-repeat -265px -2px rgba(99,99,99,0.9)}
+.founder-chairman-quote .bx-wrapper .bx-controls-direction a{top:27%;margin-top:-15px;z-index:99999}
+.founder-chairman-quote .bx-wrapper .bx-prev{left:-10px;background:url(images/ui-icons_ffffff_256x240.png) no-repeat -6px -64px rgba(182,153,96,0.0)!important}
+.founder-chairman-quote .bx-wrapper .bx-next{right:-10px;background:url(images/ui-icons_ffffff_256x240.png) no-repeat -265px -64px rgba(182,153,96,0.0)!important}
+.bx-wrapper .bx-prev:hover{background-position:-10px -452px;background-color:#b69960}
+.bx-wrapper .bx-next:hover{background-position:-247px -452px;background-color:#b69960}
+.banner .bx-wrapper .bx-controls-direction a{top:50%;margin-top:-15px;z-index:99999}
+.banner .bx-wrapper .bx-prev{left:0;background:url(images/ui-icons_ffffff_256x240.png) no-repeat -6px -28px rgba(182,153,96,0.0)!important}
+.banner .bx-wrapper .bx-next{right:-10px;background:url(images/ui-icons_ffffff_256x240.png) no-repeat -267px -28px rgba(182,153,96,0.0)!important}
+.bx-wrapper .bx-controls-direction a.bx-prev.disabled{background:url(images/ui-icons_ffffff_256x240.png) no-repeat -10px -452px rgba(182,153,96,0.9);opacity:.4}
+.bx-wrapper .bx-controls-direction a.bx-next.disabled{background:url(images/ui-icons_ffffff_256x240.png) no-repeat -247px -452px rgba(182,182,96,0.9);opacity:.4;cursor:default}
+.bx-wrapper .bx-controls-auto{text-align:center}
+.bx-wrapper .bx-controls-auto .bx-start{display:block;text-indent:-9999px;width:10px;height:11px;outline:0;background:url(images/controls.png) -86px -11px no-repeat;margin:0 3px}
+.bx-wrapper .bx-controls-auto .bx-start:hover,.bx-wrapper .bx-controls-auto .bx-start.active{background-position:-86px 0}
+.bx-wrapper .bx-controls-auto .bx-stop{display:block;text-indent:-9999px;width:9px;height:11px;outline:0;background:url(images/controls.png) -86px -44px no-repeat;margin:0 3px}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,.bx-wrapper .bx-controls-auto .bx-stop.active{background-position:-86px -33px}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{text-align:left;width:80%}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{right:0;width:35px}
+.bx-wrapper .bx-caption{position:absolute;bottom:0;left:0;background:#666\9;background:rgba(80,80,80,0.75);width:100%}
+.bx-wrapper .bx-caption span{color:#fff;font-family:Arial;display:block;font-size:.85em;padding:10px}

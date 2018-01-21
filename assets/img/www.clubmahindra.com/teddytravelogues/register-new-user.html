@@ -1,0 +1,225 @@
+﻿
+<!DOCTYPE html>
+<html>
+	<head><title>Club mahindra</title>
+	<script type="text/javascript">
+<!--
+if( /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ) 
+{
+  window.location = "http://www.clubmahindra.com/teddytravelogues-mobile/register-new-user.php";
+}
+-->
+</script>
+
+		<meta http-equiv="Pragma" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="css\style.css">
+		<script src="https://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="js\jquery.carouFredSel-6.0.4-packed.js"></script>
+ 
+ 
+		<script type="text/javascript">
+			$(function() {
+					$(window).resize(function() {
+							var newCss = {
+								width: $(window).width(),
+								height: $(window).height()
+							};
+							$('#carousel').css( 'width', newCss.width*4 );
+							$('#carousel').parent().css( newCss );
+							$('#carousel div').css( newCss );
+						}).resize();
+				
+					$('#carousel').trigger('configuration', ['auto.fx', $('select#fx').val()]);
+
+					$('select#fx').change(function() {
+							$('#carousel').trigger('configuration', ['auto.fx', $('select#fx').val()]);
+						});
+				});
+		</script>
+		<!--<script type="text/javascript" src="js/jquery-1.3.2.js"></script>-->
+		<script type="text/javascript" src="js\jquery.validate.js"></script>
+		<script type="text/javascript" src="js\jquery.form.js"></script> 
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css\bootstrap.min.css">
+		<link rel="stylesheet" href="css\bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css\main.css">
+		<title>ClubMahindra</title>
+
+	</head>
+
+	<body>
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KQ573F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ573F');</script>
+<!-- End Google Tag Manager -->
+
+		<div class="main">
+			<div class="container" id="signup-page">	
+				<div class="header">
+					<div class="header-left"> <a href="index-1.html"><img src="images\logo.jpg"></a>
+					</div>
+
+					<div class="header-right">
+						<div class="social"><table width="300" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+  
+									<td width="116">&nbsp;</td>
+									<!--<td width="50"><a href="http://clubmahindra.com/" target="_blank"><img style="width:50px;" src="images/clubmahindralogo.png"  /></a></td>-->
+									<td width="10">&nbsp;</td>
+  
+									<td width="25"><a href="https://www.facebook.com/clubmahindra" target="_blank"><img src="images\FB.png"></a></td>
+									<td width="5">&nbsp;</td>
+									<td width="25"><a href="https://twitter.com/clubmahindra" target="_blank"><img src="images\TW.png"></a></td>
+									<td width="6">&nbsp;</td>
+									<td width="25"><a href="https://instagram.com/club_mahindra" target="_blank"><img src="images\Photo.png"></a></td>
+									<td width="5">&nbsp;</td>
+									<td width="33"><a href="https://www.youtube.com/user/ClubMahindraHolidays" target="_blank"><img src="images\Youtube.png"></a></td> 
+								</tr>
+							</table>	</div>
+
+
+<div class="menu"><span> 
+<a href="index-1.html">Home</a></span>  | <span>
+<a href="winners.html">Winners </a>  </span>  | <span> 
+<a href="..\about-us.html">About Club Mahindra</a></span>  |  <span>
+<a href="home1.php">Contests  </a>  </span>  
+|  <span>
+<a href="http://membership.clubmahindra.com/TeddyTravelogues/index.html">Teddy Travelogues-1</a>  </span>  
+
+
+|  <span>
+<a href="contact-us.html">Contact us </a>&nbsp;&nbsp;</span>
+</div>
+					</div>
+				</div>
+				<div style="width:98%; margin-top:10px; margin-bottom:0px;">
+					<a href="http://membership.clubmahindra.com/TeddyTravelogues/index.html" target="_blank">
+						<img src="images\static\100.jpg">
+					</a>
+				</div>
+				<div class="content">
+				<div id="dynamic-body">       
+					<div class="orange-overlay">
+							<h3>Sign up</h3>
+							<form action="save-new-user.php" id="signup-form">
+								<input placeholder="Name" type="text" name="name" class="inputfield" required="">
+								<div id="email_cover">
+								<input placeholder="Email Address" type="text" id="email" name="email" class="inputfield" required="">
+								<span id="errorMessage">
+							</span>
+								</div>
+								
+								<input placeholder="Phone Number" type="text" name="phone" class="inputfield" required="">
+		<div class="aligncenterCover">
+			<input type="checkbox" name="haveempid" id="haveempid" value="empid"> Are you an employee of Mahindra &amp; Mahindra group?<br>
+  </div>
+  								<div class="div-clubmember" id="employeeIDCover"> 
+								<!--	<span>*if Employee of Mahindra</span>-->
+									<input placeholder="Employee ID" type="text" class="inputfield" id="employeeID" name="employeeID">
+								</div>
+								<div class="aligncenterCover">
+				  <input type="checkbox" name="havememberid" id="havememberid" value="memberid">  
+				  Are you a Club Mahindra member?
+						</div>						
+								<div class="div-clubmember" id="clubmemberIDCover"> 
+									<!--<span>*if Club Mahindra member</span>-->
+									<input placeholder="Club Member ID" type="text" class="inputfield" id="clubmemberID" name="clubmemberid">
+								</div>
+								
+								
+								<div class="button-row-signup-page">
+									<a href="#" id="newuser-form-submit-button" class="button-stylish">Register</a>
+								</div>
+							</form>
+							
+ 	<script type="text/javascript">
+ 	
+ 		$(document).ready(
+ 		function(){
+ 			$("#newuser-form-submit-button").click(function(event){
+				event.preventDefault();
+				$("#signup-form").submit();
+ 			});
+ 			$("#errorMessage").hide();
+ 			$("#email").on("focusout keyup change" , function(){
+ 				$.ajax({
+ 				 type: "POST",
+ 				 data: {
+				 	email : $("#email").val()
+				 },
+ 				 url: "includes/checkregistration.php",
+ 				 beforeSend: function( xhr ) {
+    			xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
+  				}
+				})
+				
+  				.done(function( data ) {
+  				if(data.indexOf("registered") != -1){
+					$("#newuser-form-submit-button").hide();
+				}else{
+					$("#newuser-form-submit-button").show();
+				}
+    			$("#errorMessage").html(data);
+    			$("#errorMessage").show();
+  				});
+ 			});
+ 		});
+ 		
+ 		$("#clubmemberIDCover").hide();
+ 		$("#employeeIDCover").hide();
+ 		
+ 		$("#havememberid").on("click", 
+ 		function(event){
+ 			$("#clubmemberIDCover").toggle();
+ 		});
+ 		
+ 		$("#haveempid").on("click", 
+ 		function(event){
+ 			$("#employeeIDCover").toggle();
+ 		});
+ 		$("#signup-form").validate({
+ 		rules: {
+ 			name: {
+				required: true
+			},
+    		email: {
+      			required: true,
+      			email: true
+    				},
+    		phone:{
+    			digits: true,
+				 minlength: 10
+			}
+ 				 }
+			});
+ 	</script>
+						</div>
+					</div>
+</div>
+<div style="width:98%; margin-top:10px;">
+<div style="width:40px; margin-top:4px; float:left;">Gifts: 
+</div>
+<div style="width:30%; float:left;"><img style="margin-bottom:15px; width:70px;" src="images\crossword.jpg"> &nbsp;&nbsp;&nbsp; 
+ &nbsp;&nbsp;&nbsp; 
+<img style="width:70px; " src="images\mommelogo.jpg">
+</div>
+<div style="width:38%; float:left; font-size:12px;"> 
+Best viewed on Chrome, Mozilla Firefox, Internet explorer 11
+</div>
+<div style="width:250px;float:right;">
+<div style="color: black; font-family:Arial, Helvetica, sans-serif;">Click to know - <a style="color:#000; text-decoration:none;" href="content\FAQ.pdf" target="_blank">FAQ </a>  <a style="color:#000; text-decoration:none;" href="content\Terms&Conditions.pdf" target="_blank">|  T&C</a></div> 
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
